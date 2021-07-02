@@ -1,0 +1,10 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+- name: crosser
+  params:
+    interaction_only: true
+- name: standard-scaler
+  params: {}
+- name: linear-regressor
+  params: {}

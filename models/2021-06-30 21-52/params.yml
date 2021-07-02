@@ -1,0 +1,13 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+    one_hot: false
+- name: crosser
+  params: {}
+- name: gradient
+  params:
+    max_features: 1
+    min_samples_leaf: 25
+    n_estimators: 25
+    random_state: 42
+    subsample: 0.5

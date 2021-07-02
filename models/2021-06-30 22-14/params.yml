@@ -1,0 +1,6 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+    one_hot: false
+- name: gradient
+  params: {}

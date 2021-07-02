@@ -1,0 +1,6 @@
+- name: categorical-encoder
+  params: {}
+- name: standard-scaler
+  params: {}
+- name: linear-regressor
+  params: {}

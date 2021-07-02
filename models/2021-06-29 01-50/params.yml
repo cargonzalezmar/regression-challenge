@@ -1,0 +1,7 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+- name: standard-scaler
+  params: {}
+- name: linear-regressor
+  params: {}

@@ -1,0 +1,13 @@
+- name: average-price-extractor
+  params: {}
+- name: discretizer
+  params:
+    bins_per_column:
+      bmi: 2
+    strategy: kmeans
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+    one_hot: false
+- name: random-forest
+  params: {}
