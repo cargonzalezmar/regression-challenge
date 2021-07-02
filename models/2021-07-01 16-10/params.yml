@@ -1,0 +1,16 @@
+- name: discretizer
+  params:
+    bins_per_column:
+      age: 3
+      bmi: 4
+    strategy: kmeans
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+    one_hot: true
+- name: crosser
+  params: {}
+- name: standard-scaler
+  params: {}
+- name: random-forest
+  params: {}

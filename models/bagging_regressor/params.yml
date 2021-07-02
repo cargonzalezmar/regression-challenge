@@ -1,0 +1,10 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+    one_hot: false
+- name: crosser
+  params: {}
+- name: standard-scaler
+  params: {}
+- name: bagging
+  params: {}

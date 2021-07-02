@@ -1,0 +1,15 @@
+- name: discretizer
+  params:
+    bins_per_column:
+      age: 4
+      bmi: 4
+    strategy: kmeans
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+- name: crosser
+  params: {}
+- name: standard-scaler
+  params: {}
+- name: decision-tree
+  params: {}

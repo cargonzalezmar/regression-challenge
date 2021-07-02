@@ -1,0 +1,9 @@
+- name: categorical-encoder
+  params:
+    force_dense_array: true
+- name: crosser
+  params: {}
+- name: standard-scaler
+  params: {}
+- name: decision-tree
+  params: {}
