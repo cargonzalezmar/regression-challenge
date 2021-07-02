@@ -1,0 +1,25 @@
+estimator:
+  - name: categorical-encoder
+    params:
+      force_dense_array: true
+  - name: crosser
+    params: {}
+  - name: standard-scaler
+    params: {}
+  - name: decision-tree
+    params: {}
+
+data:
+  filepath: "./data/train_regression.csv"
+
+metrics:
+  - name: mean absolute error # same as above
+    params: {}
+
+export:
+  output_dir: ./models
+
+reports:
+  dir: ./reports
+
+
